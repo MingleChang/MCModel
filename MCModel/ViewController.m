@@ -10,6 +10,7 @@
 #import "MCDog.h"
 #import "MCBigDog.h"
 #import "MCModel.h"
+#import "MCPerson.h"
 
 @interface ViewController ()
 
@@ -20,10 +21,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSDictionary *lDic = @{@"name":@"joke",@"age":@(10)};
+    NSDictionary *lDic = @{@"name":@"joke",@"height":@(178.5),@"dog":@{@"name":@"joke"}};
     
-    MCDog *lDog = [MCDog mc_objectWithKeyValues:lDic];
+    MCPerson *lDog = [MCPerson mc_objectWithKeyValues:lDic];
     NSLog(@"%@",lDog);
+    
+    NSDictionary *lKeyValue = [lDog mc_keyValues];
+    NSLog(@"%@",lKeyValue);
     
 }
 

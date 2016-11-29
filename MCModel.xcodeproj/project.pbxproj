@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82E14DBB1DED5C6E0029BD58 /* MCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E14DBA1DED5C6E0029BD58 /* MCPerson.m */; };
 		82F4D68A1DEC616900DA8AE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F4D6891DEC616900DA8AE3 /* main.m */; };
 		82F4D68D1DEC616900DA8AE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F4D68C1DEC616900DA8AE3 /* AppDelegate.m */; };
 		82F4D6901DEC616900DA8AE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F4D68F1DEC616900DA8AE3 /* ViewController.m */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82E14DB91DED5C6E0029BD58 /* MCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPerson.h; sourceTree = "<group>"; };
+		82E14DBA1DED5C6E0029BD58 /* MCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPerson.m; sourceTree = "<group>"; };
 		82F4D6851DEC616900DA8AE3 /* MCModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F4D6891DEC616900DA8AE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82F4D68B1DEC616900DA8AE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				82F4D6BA1DEC618200DA8AE3 /* MCBigDog.m */,
 				82F4D6BB1DEC618200DA8AE3 /* MCDog.h */,
 				82F4D6BC1DEC618200DA8AE3 /* MCDog.m */,
+				82E14DB91DED5C6E0029BD58 /* MCPerson.h */,
+				82E14DBA1DED5C6E0029BD58 /* MCPerson.m */,
 				82F4D69F1DEC617800DA8AE3 /* MCModel */,
 				82F4D68B1DEC616900DA8AE3 /* AppDelegate.h */,
 				82F4D68C1DEC616900DA8AE3 /* AppDelegate.m */,
@@ -215,6 +220,7 @@
 				82F4D6B21DEC617800DA8AE3 /* MCModelConfigure.m in Sources */,
 				82F4D6B11DEC617800DA8AE3 /* MCModelCacheManager.m in Sources */,
 				82F4D6B51DEC617800DA8AE3 /* MCPropertyType.m in Sources */,
+				82E14DBB1DED5C6E0029BD58 /* MCPerson.m in Sources */,
 				82F4D6901DEC616900DA8AE3 /* ViewController.m in Sources */,
 				82F4D68D1DEC616900DA8AE3 /* AppDelegate.m in Sources */,
 				82F4D6BD1DEC618200DA8AE3 /* MCBigDog.m in Sources */,
@@ -380,6 +386,7 @@
 				82F4D69E1DEC616900DA8AE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

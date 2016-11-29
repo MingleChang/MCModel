@@ -12,5 +12,6 @@
 @interface NSObject (MCModel)
 
 + (instancetype)mc_objectWithKeyValues:(NSDictionary *)keyValues;
+- (NSMutableDictionary *)mc_keyValues;
 
 @end
