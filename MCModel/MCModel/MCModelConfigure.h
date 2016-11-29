@@ -16,6 +16,11 @@
 typedef void (^MCClassesEnumeration)(Class c, BOOL *stop);
 typedef void (^MCPropertyEnumeration)(MCProperty *property, BOOL *stop);
 
+#ifdef DEBUG
+#define MCModelLog(...) NSLog(__VA_ARGS__)
+#else
+#define MCModelLog(...)
+#endif
 
 /*
  @encode(),各种类型对应的TypeCode

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "MCModel.h"
 
-@interface NSObject (MCModel)
+@interface NSObject (MCModel) <MCModelKeyValues>
 
 + (instancetype)mc_objectWithKeyValues:(NSDictionary *)keyValues;
 - (NSMutableDictionary *)mc_keyValues;

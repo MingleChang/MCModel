@@ -22,3 +22,4 @@
 #import "MCPropertyType.h"
 #import "MCModelCacheManager.h"
 #import "MCModelHelper.h"
+#import "MCModelKeyValues.h"

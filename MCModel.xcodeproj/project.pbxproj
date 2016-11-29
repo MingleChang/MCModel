@@ -27,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		826B0B741DED84AB004253D5 /* MCModelKeyValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCModelKeyValues.h; sourceTree = "<group>"; };
 		82E14DB91DED5C6E0029BD58 /* MCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPerson.h; sourceTree = "<group>"; };
 		82E14DBA1DED5C6E0029BD58 /* MCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPerson.m; sourceTree = "<group>"; };
 		82F4D6851DEC616900DA8AE3 /* MCModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				82F4D6A01DEC617800DA8AE3 /* MCModel.h */,
+				826B0B741DED84AB004253D5 /* MCModelKeyValues.h */,
 				82F4D6A11DEC617800DA8AE3 /* MCModelCacheManager.h */,
 				82F4D6A21DEC617800DA8AE3 /* MCModelCacheManager.m */,
 				82F4D6A31DEC617800DA8AE3 /* MCModelConfigure.h */,
